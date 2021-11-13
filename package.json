@@ -1,0 +1,30 @@
+{
+  "name": "my-next-test-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "ts-node infra/bin.ts"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda": "^1.132.0",
+    "@aws-cdk/core": "^1.132.0",
+    "@sls-next/cdk-construct": "3.2.0",
+    "@sls-next/lambda-at-edge": "^3.5.3",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "source-map-support": "^0.5.20"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.34",
+    "aws-cdk": "^1.132.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "ts-node": "^10.4.0",
+    "typescript": "4.4.4"    
+  }
+}
